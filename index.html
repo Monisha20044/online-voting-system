@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Voting System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Online Voting System</h1>
+        <form id="voteForm">
+            <div class="candidate">
+                <input type="radio" id="candidate1" name="candidate" value="Candidate 1">
+                <label for="candidate1">Candidate 1</label>
+            </div>
+            <div class="candidate">
+                <input type="radio" id="candidate2" name="candidate" value="Candidate 2">
+                <label for="candidate2">Candidate 2</label>
+            </div>
+            <div class="candidate">
+                <input type="radio" id="candidate3" name="candidate" value="Candidate 3">
+                <label for="candidate3">Candidate 3</label>
+            </div>
+            <button type="submit">Vote</button>
+        </form>
+        <div id="message"></div>
+        <h2>Vote Counts</h2>
+        <ul id="voteCounts"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
